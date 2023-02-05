@@ -1,87 +1,62 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
-	  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="container">
-  <h2> My Carousel</h2>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-	<li data-target="#myCarousel" data-slide-to="4"></li>
-	<li data-target="#myCarousel" data-slide-to="5"></li>
 
-    </ol>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+	  
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="https://tse4.explicit.bing.net/th?id=OIP.L66cA1BNIxdOvbuMuFEm3AHaEo&pid=Api&P=0" alt="India" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>INDIA</h3>
-          <p>Sports ground!</p>
-        </div>
-      </div>
+		  <div class="item active first-slide">
+			<img src="https://miro.medium.com/max/2400/0*hDAyhnOx767w5qma.jpg" alt="Los Angeles">
+		  </div>
+	  
+		  <div class="item second-slide">
+			<img src="https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png" alt="Chicago">
+		  </div>
+	  
+		  <div class="item active third-slide">
+			<img src="https://snellvillewebsitestoday.com/wp-content/uploads/2014/12/Design-Background.jpg" alt="New York">
+		  </div>
 
-      <div class="item">
-        <img src="https://tse3.explicit.bing.net/th?id=OIP.PPGCfzzz5lbKcQz8pchl5QHaEK&pid=Api&P=0" alt="Sprots" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Sports Events</h3>
-          <p>Thank you!</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="https://tse3.mm.bing.net/th?id=OIP.pbMJHOGANfsZl3dp7W78PgHaE8&pid=Api&P=0" alt="New games" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>New Games</h3>
-          <p>We love the Sports!</p>
-        </div>
+		  <div class="item fourth-slide">
+			<img src="https://jbsoftware.ca/wp-content/uploads/web-design.jpg" alt="Chicago">
+		  </div>
+
+		  <div class="item fourth-slide">
+			<img src="https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg" alt="Los Angeles">
+		  </div>
+		</div>
+	  
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right"></span>
+		  <span class="sr-only">Next</span>
+		</a>
 	  </div>
-		    <div class="item">
-        <img src="https://tse3.mm.bing.net/th?id=OIP.b3hL_YEBHsmloSEymHTixwHaEe&pid=Api&P=0" alt="New games" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Games</h3>
-          <p>We love the Sports and Games!</p>
-        </div>
-			</div>
-				    <div class="item">
-        <img src="https://tse2.mm.bing.net/th?id=OIP.cPgyplaPWhbD73W8RAcvUwHaDF&pid=Api&P=0" alt="Loving " style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Playing by hearts</h3>
-          <p>We love Sports and Games!</p>
-        </div>
-			</div>		
 
-      </div>
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-
-
+	<!-- Bootstrap Bundle with Popper -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./script.js">
 </script>
 
